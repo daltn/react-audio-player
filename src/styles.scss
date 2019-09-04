@@ -55,8 +55,10 @@
     margin-bottom: 15px;
     background-color: transparent;
     border: none;
-    .play {
-      color: white;
+
+    svg {
+      font-size: 4em;
+      fill: white;
     }
 
     &:focus {
@@ -65,13 +67,8 @@
     &:hover {
       cursor: pointer;
       svg {
-        color: teal;
+        fill: teal;
       }
-    }
-
-    svg {
-      font-size: 4em;
-      color: white;
     }
   }
 
@@ -82,7 +79,7 @@
     align-items: center;
 
     .bar__time {
-      color: teal;
+      color: whitesmoke;
       font-size: 16px;
     }
 

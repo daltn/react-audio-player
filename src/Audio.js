@@ -22,13 +22,14 @@ function Audio() {
         <source src="away.mp3" />
         Your browser does not support the <code>audio</code> element.
       </audio>
-      <Song songName="Don't Go Away" songArtist="Affinity" />
+      {playing ? (
+        <Pause handleClick={() => setPlaying(false)} />
+      ) : (
+        <Play handleClick={() => setPlaying(true)} />
+      )}
+
       <div className="controls">
-        {playing ? (
-          <Pause handleClick={() => setPlaying(false)} />
-        ) : (
-          <Play handleClick={() => setPlaying(true)} />
-        )}
+        <Song songName="Don't Go Away" songArtist="Affinity" />
         <Bar
           curTime={curTime}
           duration={duration}

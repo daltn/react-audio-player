@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="79" viewBox="0 0 79 79">
+  <defs>
+    <clipPath id="clip-Pause_Full_Player">
+      <rect width="79" height="79"/>
+    </clipPath>
+  </defs>
+  <g id="Pause_Full_Player" data-name="Pause Full Player" clipPath="url(#clip-Pause_Full_Player)">
+    <rect width="79" height="79" fill="rgba(255,255,255,0)"/>
+    <g id="Group_236" data-name="Group 236" transform="translate(-148 -558)">
+      <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(148 558)" fill="none" stroke="#f1f9ff" stroke-width="2" opacity="0.3">
+        <circle cx="39.5" cy="39.5" r="39.5" stroke="none"/>
+        <circle cx="39.5" cy="39.5" r="38.5" fill="none"/>
+      </g>
+      <path id="Union_52" data-name="Union 52" d="M14.861,23.1a1,1,0,0,1-1-1V1a1,1,0,0,1,1-1h4.931a1,1,0,0,1,1,1V22.1a1,1,0,0,1-1,1ZM1,23.1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H5.93a1,1,0,0,1,1,1V22.1a1,1,0,0,1-1,1Z" transform="translate(176.892 586.448)" fill="#cbc41b"/>
+    </g>
+  </g>
+</svg>

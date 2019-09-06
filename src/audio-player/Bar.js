@@ -7,6 +7,8 @@ export default function Bar(props) {
 
   const curPercentage = (curTime / duration) * 100;
 
+  const timeLeft = curTime - duration;
+
   function formatDuration(duration) {
     return moment
       .duration(duration, "seconds")
@@ -43,7 +45,7 @@ export default function Bar(props) {
       <div
         className="bar__progress"
         style={{
-          background: `linear-gradient(to right, teal ${curPercentage}%, white 0)`
+          background: `linear-gradient(to right, #cbc41b ${curPercentage}%, white 0)`
         }}
         onMouseDown={e => handleTimeDrag(e)}
       >
@@ -52,7 +54,7 @@ export default function Bar(props) {
           style={{ left: `${curPercentage - 1}%` }}
         />
       </div>
-      <span className="bar__time">{formatDuration(duration)}</span>
+      <span className="bar__time">{formatDuration(timeLeft)}</span>
     </div>
   );
 }

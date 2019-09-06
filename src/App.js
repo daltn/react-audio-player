@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.scss";
-import Audio from "./Audio";
+import AudioPlayer from "./audio-player/AudioPlayer";
 
 function App() {
   return (
     <div className="App">
-      <Audio />
+      <AudioPlayer />
     </div>
   );
 }

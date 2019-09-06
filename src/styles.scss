@@ -1,42 +1,64 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-style: bold;
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold-Italic";
+  font-style: italic;
+  src: url("/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat";
   text-align: center;
 }
 
 .player {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+  // padding: 20px 0;
   background-color: #212527;
 
-  .song {
+  .podcast {
     user-select: none;
     margin: 0 20px;
-    .song__title {
+    .podcast__title {
       text-align: left;
       margin: 0;
       color: white;
-      font-family: "Work Sans", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-weight: normal;
       font-size: 1.5rem;
       margin-bottom: 1rem;
 
       &:hover {
-        color: teal;
+        color: goldenrod;
       }
     }
 
-    .song__artist {
+    .podcast__artist {
       margin: 0;
       color: white;
-      font-family: "Work Sans";
+      font-family: "Montserrat", sans-serif;
       font-weight: normal;
       font-size: 1rem;
 
       &:hover {
-        color: teal;
+        color: #cbc41b;
         cursor: pointer;
       }
     }
@@ -44,11 +66,12 @@
 
   .controls {
     flex-grow: 1;
-    margin: 0 20px;
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100vw;
   }
 
   .player__button {
@@ -59,7 +82,6 @@
 
     svg {
       font-size: 4em;
-      fill: white;
     }
 
     &:focus {
@@ -67,17 +89,15 @@
     }
     &:hover {
       cursor: pointer;
-      svg {
-        fill: teal;
-      }
     }
   }
 
   .bar {
     user-select: none;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
+    margin: 0 20px;
 
     .bar__time {
       color: whitesmoke;
@@ -88,7 +108,7 @@
       flex: 1;
       border-radius: 5px;
       margin: 0 20px;
-      height: 10px;
+      height: 5px;
       display: flex;
       align-items: center;
       cursor: pointer;
@@ -97,9 +117,8 @@
         position: relative;
         height: 16px;
         width: 16px;
-        border: 1.5px solid white;
         border-radius: 50%;
-        background-color: teal;
+        background-color: #cbc41b;
       }
     }
   }
@@ -118,12 +137,12 @@
   }
 
   @media screen and (max-width: 500px) {
-    .song {
-      .song__title {
-        font-size: 2.5em;
+    .podcast {
+      .podcast__title {
+        font-size: 1.5em;
       }
 
-      .song__artist {
+      .podcast__artist {
         font-size: 0.8em;
       }
     }

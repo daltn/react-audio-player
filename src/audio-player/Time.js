@@ -1,5 +1,6 @@
 import React from "react";
 import moment from "moment";
+import momentDurationFormatSetup from "moment-duration-format";
 
 const Time = props => {
   const { duration, curTime, onTimeUpdate } = props;

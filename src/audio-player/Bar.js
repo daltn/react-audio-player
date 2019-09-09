@@ -1,6 +1,4 @@
 import React from "react";
-import moment from "moment";
-import momentDurationFormatSetup from "moment-duration-format";
 
 export default function Bar(props) {
   const { duration, curTime, onTimeUpdate } = props;

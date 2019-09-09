@@ -21,7 +21,6 @@ function App() {
         </nav>
         <Route path="/" exact component={AudioPlayer} />
         <Route path="/page-two" component={PageTwo} />
-        {/* <AudioPlayer /> */}
       </div>
     </Router>
   );

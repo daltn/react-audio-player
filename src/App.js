@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./styles.scss";
 
 import AudioPlayer from "./audio-player/AudioPlayer";
-import PageTwo from "./PageTwo";
+import Hello from "./intro/Hello";
 
 function App() {
   return (
@@ -15,12 +15,15 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/page-two">Page Two</Link>
+              <Link to="/audio-player">Audio Player</Link>
+            </li>
+            <li>
+              <Link to="/hello">Introduction</Link>
             </li>
           </ul>
         </nav>
-        <Route path="/" exact component={AudioPlayer} />
-        <Route path="/page-two" component={PageTwo} />
+        <Route path="/audio-player" exact component={AudioPlayer} />
+        <Route path="/hello" component={Hello} />
       </div>
     </Router>
   );

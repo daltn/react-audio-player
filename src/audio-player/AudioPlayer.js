@@ -36,6 +36,7 @@ function AudioPlayer() {
       <Bar
         curTime={curTime}
         duration={duration}
+        w
         onTimeUpdate={time => setClickedTime(time)}
       />
       <Time curTime={curTime} duration={duration} />

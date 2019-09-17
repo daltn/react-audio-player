@@ -24,6 +24,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  width: 200px;
+  background-color: #cbc41b;
+  border-radius: 15px;
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #cbc41b;
+}
+
 .App {
   font-family: "Montserrat";
   text-align: center;

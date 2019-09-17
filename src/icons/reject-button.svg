@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="79" viewBox="0 0 79 79">
+  <defs>
+    <clipPath id="clip-Reject_Button">
+      <rect width="79" height="79"/>
+    </clipPath>
+  </defs>
+  <g id="Reject_Button" data-name="Reject Button" clip-path="url(#clip-Reject_Button)">
+    <rect width="79" height="79" fill="rgba(255,255,255,0)"/>
+    <g id="Group_233" data-name="Group 233" transform="translate(17 -1)">
+      <g id="Group_232" data-name="Group 232">
+        <g id="Group_15" data-name="Group 15" transform="translate(-516.952 -266.455) rotate(-45)">
+          <path id="Path_197" data-name="Path 197" d="M1.1-2H4.172A1.13,1.13,0,0,1,5.27-.841V17.7a1.13,1.13,0,0,1-1.1,1.159H1.1A1.13,1.13,0,0,1,0,17.7V-.841A1.13,1.13,0,0,1,1.1-2Z" transform="translate(161.694 590)" fill="#fff"/>
+          <path id="Path_198" data-name="Path 198" d="M1.1,0H4.172a1.13,1.13,0,0,1,1.1,1.159V19.7a1.13,1.13,0,0,1-1.1,1.159H1.1A1.13,1.13,0,0,1,0,19.7V1.159A1.13,1.13,0,0,1,1.1,0Z" transform="translate(174.759 595.795) rotate(90)" fill="#fff"/>
+        </g>
+        <g id="Ellipse_239" data-name="Ellipse 239" transform="translate(-17 1)" fill="none" stroke="#f1f9ff" stroke-width="2" opacity="0.3">
+          <circle cx="39.5" cy="39.5" r="39.5" stroke="none"/>
+          <circle cx="39.5" cy="39.5" r="38.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

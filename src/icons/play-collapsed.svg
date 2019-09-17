@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.318" height="51.318" viewBox="0 0 51.318 51.318">
+  <defs>
+    <clipPath id="clip-Play_Collapsed_Player">
+      <rect width="51.318" height="51.318"/>
+    </clipPath>
+  </defs>
+  <g id="Play_Collapsed_Player" data-name="Play Collapsed Player" clip-path="url(#clip-Play_Collapsed_Player)">
+    <rect width="51.318" height="51.318" fill="rgba(255,255,255,0)"/>
+    <g id="Group_235" data-name="Group 235" transform="translate(-161.841 -593.841)">
+      <g id="Group_36" data-name="Group 36" transform="translate(13.841 35.841)">
+        <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(148 558)" fill="none" stroke="#f1f9ff" stroke-width="2" opacity="0.3">
+          <circle cx="25.659" cy="25.659" r="25.659" stroke="none"/>
+          <circle cx="25.659" cy="25.659" r="24.659" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_5" data-name="Path 5" d="M678.645-37.128l-11.122-6.844a1,1,0,0,0-1.523.851v13.934a1,1,0,0,0,1.523.851l11.122-6.844A1.144,1.144,0,0,0,678.645-37.128Z" transform="translate(-645.689 62.632)" fill="#cbc41b"/>
+  </g>
+</svg>

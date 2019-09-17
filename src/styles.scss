@@ -16,6 +16,10 @@
   src: url("/fonts/Montserrat-BoldItalic.ttf") format("truetype");
 }
 
+$black: #1c1c1c;
+$gray: #2b2b2b;
+$yellow: #cbc41b;
+
 body {
   margin: 0;
   font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
@@ -25,30 +29,68 @@ body {
 }
 
 button {
+  background-color: transparent;
+  border: none;
+}
+.button-ui {
   width: 200px;
-  background-color: #cbc41b;
+  background-color: $yellow;
   border-radius: 15px;
   font-family: "Montserrat-Bold";
   font-size: 20px;
   padding: 10px;
+  border: 1px solid $yellow;
+  margin: 5vh;
 }
 
-button:hover {
-  background-color: #000;
-  color: #cbc41b;
+.button-ui:hover {
+  background-color: $black;
+  color: $yellow;
+}
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.intro {
+  font-family: "Montserrat-Bold";
+  width: 70vw;
+  margin: 10vh 15vw;
+  font-size: 48px;
+  color: #fff;
+  background-color: $black;
 }
 
 .App {
   font-family: "Montserrat";
   text-align: center;
+  background-color: $black;
+  color: #fff;
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: column;
+}
+
+ul {
+  margin: 0;
 }
 
 li {
   list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  a {
+    color: $yellow;
+  }
 }
 
 .player {
-  background-color: #2b2b2b;
+  background-color: $gray;
   position: absolute;
   bottom: 0;
 
@@ -63,7 +105,6 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: normal;
       font-size: 1rem;
-      // margin-bottom: 1rem;
     }
 
     .podcast__artist {

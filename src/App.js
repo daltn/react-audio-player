@@ -4,6 +4,7 @@ import "./styles.scss";
 
 import AudioPlayer from "./audio-player/AudioPlayer";
 import Hello from "./intro/Hello";
+import Swipe from "./swipe/Swipe";
 
 function App() {
   return (
@@ -20,10 +21,14 @@ function App() {
             <li>
               <Link to="/hello">Introduction</Link>
             </li>
+            <li>
+              <Link to="/swipe">Swipe</Link>
+            </li>
           </ul>
         </nav>
         <Route path="/audio-player" exact component={AudioPlayer} />
-        <Route path="/hello" component={Hello} />
+        <Route path="/hello" exact component={Hello} />
+        <Route path="/swipe" exact component={Swipe} />
       </div>
     </Router>
   );

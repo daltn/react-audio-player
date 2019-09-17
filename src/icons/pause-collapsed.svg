@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.318" height="51.318" viewBox="0 0 51.318 51.318">
+  <defs>
+    <clipPath id="clip-Pause_Collapsed_Player">
+      <rect width="51.318" height="51.318"/>
+    </clipPath>
+  </defs>
+  <g id="Pause_Collapsed_Player" data-name="Pause Collapsed Player" clip-path="url(#clip-Pause_Collapsed_Player)">
+    <rect width="51.318" height="51.318" fill="rgba(255,255,255,0)"/>
+    <g id="Group_235" data-name="Group 235" transform="translate(-161.841 -593.841)">
+      <g id="Group_36" data-name="Group 36" transform="translate(13.841 35.841)">
+        <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(148 558)" fill="none" stroke="#f1f9ff" stroke-width="2" opacity="0.3">
+          <circle cx="25.659" cy="25.659" r="25.659" stroke="none"/>
+          <circle cx="25.659" cy="25.659" r="24.659" fill="none"/>
+        </g>
+      </g>
+      <path id="Union_53" data-name="Union 53" d="M-940.437-17057.725a1,1,0,0,1-1-1V-17071a1,1,0,0,1,1-1h2.279a1,1,0,0,1,1,1v12.271a1,1,0,0,1-1,1Zm-8.565,0a1,1,0,0,1-1-1V-17071a1,1,0,0,1,1-1h2.284a1,1,0,0,1,1,1v12.271a1,1,0,0,1-1,1Z" transform="translate(1130.777 17684.863)" fill="#cbc41b"/>
+    </g>
+  </g>
+</svg>

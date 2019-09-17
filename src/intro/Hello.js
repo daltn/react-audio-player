@@ -7,7 +7,7 @@ const Hello = () => (
     <img style={{ margin: `5vh` }} src={mic} alt="yellow microphone" />
     <h1 className="intro">READY TO FIND YOUR NEXT FAVORITE PODCAST?</h1>
     <p>Let's help you discover new shows</p>
-    <Link to="/audio-player">
+    <Link to="/swipe">
       <button className="button-ui" type="button">
         BEGIN
       </button>
